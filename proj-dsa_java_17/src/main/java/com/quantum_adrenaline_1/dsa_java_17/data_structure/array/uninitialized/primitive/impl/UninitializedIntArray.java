@@ -12,8 +12,11 @@ import java.text.MessageFormat;
  * @author : quantum-adrenaline-1
  */
 public final class UninitializedIntArray extends UninitializedArray<int[]> {
-    private static final Logger logger =
-            Logger.getLogger(UninitializedArray.class.getCanonicalName());
+    private static final Logger logger;
+
+    static {
+        logger = Logger.getLogger(UninitializedArray.class.getCanonicalName());
+    }
 
     /**
      * @implNote : create an uninitialized 'int' array
@@ -32,15 +35,23 @@ public final class UninitializedIntArray extends UninitializedArray<int[]> {
     }
 
     /**
-     * @implNote : traverse through and print the array
+     * @implNote : traverse through and print the 'int' array
      * @param array : array argument to be traversed and printed
      * @author : quantum-adrenaline-1
      */
     @Override
-    public void traverseAndPrintArray(final int[] array) {
-        logger.log(Level.INFO, "Okay user, these are the elements of your array: ");
-        for (int index = 0; index < array.length; index++) {
-            logger.log(Level.INFO, MessageFormat.format("Element {0}: {1}", index, array[index]));
+    public void traverseAndPrintArray(final int[] array) throws NullPointerException {
+        if (array != null) {
+            if (array.length > 0) {
+                logger.log(Level.INFO, "Okay user, these are the elements of your array: ");
+                for (int index = 0; index < array.length; index++) {
+                    logger.log(Level.INFO, MessageFormat.format("Element {0}: {1}", index, array[index]));
+                }
+            } else {
+                logger.log(Level.INFO, MessageFormat.format("The array instance {0} is empty", array));
+            }
+        } else {
+            logger.log(Level.INFO, "The array does not exists (is a null reference)");
         }
     }
 }
