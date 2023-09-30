@@ -22,3 +22,33 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### IntelliJ IDEA ###
+proj-dsa_java_17/out/
+proj-dsa_java_17/!**/src/main/**/out/
+proj-dsa_java_17/!**/src/test/**/out/
+
+### Eclipse ###
+proj-dsa_java_17/.apt_generated
+proj-dsa_java_17/.classpath
+proj-dsa_java_17/.factorypath
+proj-dsa_java_17/.project
+proj-dsa_java_17/.settings
+proj-dsa_java_17/.springBeans
+proj-dsa_java_17/.sts4-cache
+proj-dsa_java_17/bin/
+proj-dsa_java_17/!**/src/main/**/bin/
+proj-dsa_java_17/!**/src/test/**/bin/
+
+### NetBeans ###
+proj-dsa_java_17/nbproject/private/
+proj-dsa_java_17/nbbuild/
+proj-dsa_java_17/dist/
+proj-dsa_java_17/nbdist/
+proj-dsa_java_17/.nb-gradle/
+
+### VS Code ###
+proj-dsa_java_17/.vscode/
+
+### Mac OS ###
+proj-dsa_java_17/.DS_Store
