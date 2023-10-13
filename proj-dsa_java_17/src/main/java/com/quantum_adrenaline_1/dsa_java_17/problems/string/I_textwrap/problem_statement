@@ -1,0 +1,6 @@
+PROBLEM:
+=======
+
+Implement an algorithm to wrap a string (single-line/multiple-line) to as many characters as required on a single line
+
+Thus, the string and the character count will be user provision and the corresponding formatted wrapped string would be the user's requirement, thus the code's output
