@@ -12,7 +12,19 @@ The conventional binary search algorithm and the optimized binary search algorit
 
 */
 
+/**
+ * @implNote : practice implementation of the conventional and the optimized versions of the Binary Search algorithm with the driver main() method
+ * @author : quantum-adrenaline-1
+ */
 public final class BinarySearch {
+    /**
+     * @implNote : check if the search key for the array is within the lowest and the highest bounds of the array
+     * @param userArray : the 'int' array in which the key is to be searched
+     * @param searchKey : the key to be searched in the 'int' array
+     * @return success (if the search key is equals to or between the lower and the upper bounds of the array) : true
+     *         failure (if the search key is out of the lower and the upper bounds of the array) : false
+     * @author : quantum-adrenaline-1
+     */
     private static boolean isKeyWithinArrayBounds(int[] userArray, int searchKey) {
         if (userArray != null && userArray.length > 0) {
             return searchKey >= userArray[0] && searchKey <= userArray[userArray.length - 1];
@@ -20,6 +32,14 @@ public final class BinarySearch {
         return false;
     }
 
+    /**
+     * @implNote : conventional Binary Search algorithm to search the desired search key
+     * @param userArray : the 'int' array in which the key is to be searched
+     * @param searchKey : the key to be searched in the 'int' array
+     * @return success (if the search key is found in the array) : index of the search key in the array
+     *         failure (if the search key is not found in the array) : -1
+     * @author : quantum-adrenaline-1
+     */
     private static int binarySearch(int[] userArray, int searchKey) {
         if (userArray != null && userArray.length > 0) {
             int firstIndex = 0;
@@ -41,10 +61,27 @@ public final class BinarySearch {
         return -1;
     }
 
+    /**
+     * @implNote : check if the element at 'index' param is equal to the 'searchKey' param
+     * @param userArray : the 'int' array in which the key is to be searched
+     * @param index : the targeted 'index' location for the searchKey comparison
+     * @param searchKey : the key to be searched in the 'int' array
+     * @return success (if the element present at 'index' equals the 'searchKey') : true
+     *         failure (if the element present at 'index' does not equal the 'searchKey') : false
+     * @author : quantum-adrenaline-1
+     */
     private static boolean isKeyFoundAtIndex(int[] userArray, int index, int searchKey) {
         return userArray[index] == searchKey;
     }
 
+    /**
+     * @implNote : optimized version of the conventional Binary Search algorithm to search the desired search key
+     * @param userArray : the 'int' array in which the key is to be searched
+     * @param searchKey : the key to be searched in the 'int' array
+     * @return success (if the search key is found in the array) : index of the search key in the array
+     *         failure (if the search key is not found in the array) : -1
+     * @author : quantum-adrenaline-1
+     */
     private static int optimizedBinarySearch(int[] userArray, int searchKey) {
         if (userArray != null && userArray.length > 0 && isKeyWithinArrayBounds(userArray, searchKey)) {
             int firstIndex = 0;
@@ -74,6 +111,11 @@ public final class BinarySearch {
         return -1;
     }
 
+    /**
+     * @implNote : 'main' method for implementing execution for 'Binary Search' implementations in this class
+     * @param args : 'runtime' string array arguments for main method
+     * @author : quantum-adrenaline-1
+     */
     public static void main(String[] args) {
         final int[] userArray = {1, 3, 5, 8, 13, 16, 52, 84, 96};
 
