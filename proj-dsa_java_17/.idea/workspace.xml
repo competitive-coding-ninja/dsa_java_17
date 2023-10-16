@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23a3cbea-6805-4dfb-9de2-3f3f1a8c8948" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/problems/array/search/linear_search/practice/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/problems/array/search/linear_search/practice/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
