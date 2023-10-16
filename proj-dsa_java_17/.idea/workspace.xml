@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23a3cbea-6805-4dfb-9de2-3f3f1a8c8948" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +66,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort_algo_dry-run" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.problems.array.search.binary_search.practice.BinarySearch" />
+  <component name="RunManager" selected="Application.EfficientBubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.BubbleSort" />
       <module name="proj-dsa_java_17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.problems.array.search.binary_search.practice.*" />
+          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.BubbleSort" />
+    <configuration name="EfficientBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient.EfficientBubbleSort" />
       <module name="proj-dsa_java_17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.*" />
+          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EfficientBubbleSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.TextWrap" />
         <item itemvalue="Application.RecursiveBinarySearch" />
         <item itemvalue="Application.RecursiveLinearSearch" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
