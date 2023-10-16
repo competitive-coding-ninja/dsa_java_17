@@ -17,7 +17,18 @@ package com.quantum_adrenaline_1.dsa_java_17.problems.array.search.linear_search
     - The space complexity of the linear search algorithm is O(1) because it does not require any additional space beyond the input array.
 */
 
+/**
+ * @implNote : conventional linear search implementation for practice
+ * @author : quantum-adrenaline-1
+ */
 public final class LinearSearch {
+    /**
+     * @implNote : conventional linear search implementation for practice using iterative approach
+     * @param userArray : the user input array to be searched for the 'searchKey'
+     * @param searchKey : the key to be searched in the 'userArray'
+     * @return success (the 'searchKey' is found in the 'userArray') : the index of the location of 'searchKey' in 'userArray'
+     *         failure (the searchKey is not found in the 'userArray') : -1
+     */
     private static int linearSearch(int[] userArray, int searchKey) {
         if (userArray != null && userArray.length > 0) {
             for (int index = 0; index < userArray.length; index++) {
@@ -29,6 +40,11 @@ public final class LinearSearch {
         return -1;
     }
 
+    /**
+     * @implNote : 'main' method for Linear Search execution in this class
+     * @param args : 'runtime' string array arguments for main method
+     * @author : quantum-adrenaline-1
+     */
     public static void main(String[] args) {
         final int[] userArray = {12, 9, 10, 32, 54, 18, 63, 98};
 
