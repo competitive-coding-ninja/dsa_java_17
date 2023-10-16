@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="23a3cbea-6805-4dfb-9de2-3f3f1a8c8948" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "problems",
+    "git-widget-placeholder": "algorithm",
     "last_opened_file_path": "/home/quad-adr-1/Documents/GitHub/o-competitive-coding-ninja/p-dsa_java/r-dsa_java_17/proj-dsa_java_17/src/main/java/com/quantum_adrenaline_1/dsa_java_17/problems/array/search/binary_search/practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort_algo_dry-run" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EfficientBubbleSort">
+  <component name="RunManager" selected="Application.RecursiveBubbleSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.BubbleSort" />
       <module name="proj-dsa_java_17" />
@@ -106,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.search.linear_search.recursion.RecursiveLinearSearch" />
+    <configuration name="RecursiveBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.recursion.RecursiveBubbleSort" />
       <module name="proj-dsa_java_17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.search.linear_search.recursion.*" />
+          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursiveBubbleSort" />
         <item itemvalue="Application.EfficientBubbleSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.TextWrap" />
         <item itemvalue="Application.RecursiveBinarySearch" />
-        <item itemvalue="Application.RecursiveLinearSearch" />
       </list>
     </recent_temporary>
   </component>
