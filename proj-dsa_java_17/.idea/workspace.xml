@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23a3cbea-6805-4dfb-9de2-3f3f1a8c8948" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/bubble_sort_algo_dry-run.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/bubble_sort_algo_dry-run.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "algorithm",
     "last_opened_file_path": "/home/quad-adr-1/Documents/GitHub/o-competitive-coding-ninja/p-dsa_java/r-dsa_java_17/proj-dsa_java_17/src/main/java/com/quantum_adrenaline_1/dsa_java_17/problems/array/search/binary_search/practice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -169,5 +169,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
