@@ -16,6 +16,8 @@ public interface BubbleSort extends SortAlgorithm {
         final BubbleSort bubbleSort;
         if (sortingScheme == SortingScheme.ASCENDING) {
             // execute the ascending sorting logic
+            bubbleSort = new RecursiveOptimizedAscendingBubbleSort();
+            ((RecursiveOptimizedAscendingBubbleSort) bubbleSort).ascendingBubbleSort(userArray, userArray.length - 1);
         } else if (sortingScheme == SortingScheme.DESCENDING) {
             bubbleSort = new RecursiveOptimizedDescendingBubbleSort();
             ((RecursiveOptimizedDescendingBubbleSort) bubbleSort).descendingBubbleSort(userArray, 0);
