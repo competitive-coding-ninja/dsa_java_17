@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23a3cbea-6805-4dfb-9de2-3f3f1a8c8948" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort/recursion/efficient/OptimizedRecursiveBubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -39,25 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;algorithm&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/quad-adr-1/Documents/GitHub/o-competitive-coding-ninja/p-dsa_java/r-dsa_java_17/proj-dsa_java_17/src/main/java/com/quantum_adrenaline_1/dsa_java_17/problems/array/search/binary_search/practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "algorithm",
+    "last_opened_file_path": "/home/quad-adr-1/Documents/GitHub/o-competitive-coding-ninja/p-dsa_java/r-dsa_java_17/proj-dsa_java_17/src/main/java/com/quantum_adrenaline_1/dsa_java_17/problems/array/search/binary_search/practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/problems/array/search/binary_search/practice" />
@@ -65,14 +66,17 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/quantum_adrenaline_1/dsa_java_17/algorithm/array/sort/bubble_sort_algo_dry-run" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.OptimizedRecursiveBubbleSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.BubbleSort" />
+  <component name="RunManager" selected="Application.ExecBubbleSort">
+    <configuration name="EfficientBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient.EfficientBubbleSort" />
       <module name="proj-dsa_java_17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.*" />
+          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EfficientBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient.EfficientBubbleSort" />
+    <configuration name="ExecBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient_with_sorting_scheme.ExecBubbleSort" />
       <module name="proj-dsa_java_17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient.*" />
+          <option name="PATTERN" value="com.quantum_adrenaline_1.dsa_java_17.algorithm.array.sort.bubble_sort.efficient_with_sorting_scheme.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecBubbleSort" />
         <item itemvalue="Application.OptimizedRecursiveBubbleSort" />
         <item itemvalue="Application.POptimizedBubbleSort" />
         <item itemvalue="Application.RecursiveBubbleSort" />
         <item itemvalue="Application.EfficientBubbleSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +158,7 @@
       <workItem from="1696944351480" duration="619000" />
       <workItem from="1696961129078" duration="2779000" />
       <workItem from="1697032576120" duration="24407000" />
+      <workItem from="1697528714592" duration="14235000" />
     </task>
     <servers />
   </component>
@@ -173,5 +178,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
